@@ -1,0 +1,237 @@
+body > .right-container {
+    display: flex;
+    width: 70%;
+    height: max-content;
+    background-color: var(--second-color);
+    position:relative;
+    padding: 1.5rem;
+    left: 30%;
+}
+
+.right-container > .main-container {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-info {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.section-info > button {
+    width: 25%;
+    border: 0;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    border-radius: 8px;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 4px;
+    margin: 0px 0px 20px 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.section-info > h2 {
+    color: var(--fourth-color);
+    font-size: 2rem;
+    margin: 0px 0px 20px 0px;
+}
+
+.section-info > p {
+    margin-bottom: 0;
+    padding: 0.2rem;
+    font-size: 1rem;
+    color: var(--fourth-color);
+}
+
+.projects-card {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 20rem;
+    height: max-content;
+    margin: 1.5rem;
+    border-radius: 10px;
+    background-color:var(--first-color);
+    display: flex;
+}
+
+.project-card .project-image {
+    width: 50%;
+    height: 100%;
+    border-radius: 7px 0 0 7px;
+}
+
+.project-card .project-details {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 7px 7px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.project-card .project-details h3 {
+    color: var(--second-color);
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.project-card .project-details p {
+    margin-top: 0.5rem;
+    color: var(--second-color);
+    text-align: center;
+    font-size: .7rem;
+}
+
+.project-card .project-details a {
+    text-decoration: none;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 5rem;
+    padding: .2rem;
+    margin-top: 1.5rem;
+    font-size: .7rem;
+    color: var(--fourth-color);
+    background-color: var(--second-color);
+    border-radius: 10px;
+}
+
+.project-card .project-details a:hover {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    box-shadow: 0 0 10px rgb(27, 84, 0);
+}
+
+.references-card {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.reference-card {
+    width: 20rem;
+    height: max-content;
+    margin: 1.5rem;
+    border-radius: 10px;
+    background-color:var(--first-color);
+    display: flex;
+}
+
+.reference-card .reference-image {
+    width: 50%;
+    height: 100%;
+    border-radius: 7px 0 0 7px;
+}
+
+.reference-card .reference-details {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 7px 7px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.reference-card .reference-details h3 {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.reference-card .reference-details p {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.reference-card .reference-details a {
+    text-decoration: none;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 5rem;
+    padding: .2rem;
+    margin-top: 1.5rem;
+    font-size: .7rem;
+    color: var(--fourth-color);
+    background-color: var(--second-color);
+    border-radius: 10px;
+}
+
+.reference-card .reference-details a:hover {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    box-shadow: 0 0 10px rgb(27, 84, 0);
+}
+
+.characters-technologies{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .values-technologies{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 5px;
+ }
+        
+ .values-technologies > img{
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        border: 2px solid var(--first-color);
+        margin-bottom: 5px;
+ }
+
+ .values-technologies > span {
+    color: var(--fourth-color);
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .values-technologies > progress {
+    width: 8rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--first-color);
+}
+
+progress::-moz-progress-bar {
+    background-color: var(--first-color);
+}
+
+progress::-ms-fill {
+    background-color: var(--first-color);
+} 
